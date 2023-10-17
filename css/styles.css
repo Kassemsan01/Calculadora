@@ -11,9 +11,6 @@ body{
     background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
     color: #fff;
 }
-.countainer h2{
-  
-}
 
 h2{
     margin-bottom: 1rem;
@@ -101,6 +98,21 @@ h2{
 
 #multiplication-operations .result{
     margin-left: 0.4rem;
+}
+
+#formas h2{
+    margin-top: 2rem;
+}
+
+#formas input{
+    margin-bottom: 2rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    
 }
 
 
