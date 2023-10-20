@@ -11,7 +11,7 @@
 
 <body>
     <div class="countainer">
-        <h2>Digite dois numeros para fazer uma conta de divisão</h2>
+        <h2>Digite dois numeros para fazer a conta</h2>
         <form id="multiplication-form">
             <div class="form-control">
                 <label>Primeiro numero</label>
@@ -25,16 +25,31 @@
 
             </div>
 
-            <input type="submit" value="Calcular" />
+
         </form>
 
-        <form id="formas">
-            <h2>Escolha uma das opções para fazer o calculo:</h2>
-            <input type="submit" value="X" />
-            <input type="submit" value="+" />
-            <input type="submit" value="/" />
-            <input type="submit" value="-" />
-        </form>
+        <div class="butoes">
+            <form id="formas">
+                <h2>Escolha uma das opções para fazer o calculo:</h2>
+                <button onclick="mult()" type="submit"> X </button>
+            </form>
+
+            <form id="formas1">
+                <button onclick="adiction()" type="submit"> + </button>
+            </form>
+
+
+            <form id="formas2">
+                <button onclick="subtracao()" type="submit"> - </button>
+            </form>
+
+
+            <form id="formas3">
+                <button onclick="divisao()" type="submit"> / </button>
+            </form>
+
+        </div>
+
 
         <div id="multiplication-table">
             <h2 id="multiplication-title">Resultado da conta:</h2>
