@@ -104,6 +104,12 @@ h2{
     margin-top: 2rem;
 }
 
+.butoes{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 .butoes button{
     margin-bottom: 2rem;
@@ -112,8 +118,17 @@ h2{
     border: 1px solid #333;
     width: 100px;
     border-radius: 5px;
-    justify-content: center;
-    display:inline-block;
+    margin-right: 12px;
+    padding-bottom: 10px;
+    border: transparent 5px solid;
+}
+
+
+.butoes button:hover{
+    transform: scale(1.1);
+    border-right: 5px solid #333;
+    border-bottom: 5px solid #333;
+    left: -20px;
 }
 
 
